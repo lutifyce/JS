@@ -1,8 +1,17 @@
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa ${str1} bbb ${str2} ccc`;
-alert(txt)
+let a;
+alert(a); 
 //
-let str=`a
-b
-c`;
+let b=null;
+alert(b);
+//
+let ab=true;
+alert(ab);
+//
+let ba=false;
+alert(ba);
+//
+alert('sd'*'sdd')
+//
+alert( 10 / 0); 
+//
+alert(-10 / 0);
