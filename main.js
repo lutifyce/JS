@@ -1,12 +1,4 @@
-let num1 = 456;
-console.log(num1);
-//
-let num2 = 456;
-let num3 = 456;
-console.log(num1,num2,num3);
-//
-console.log(123);
-console.log('123');
-console.log(true);  
-//
-alert(eee);
+const PI = 3.14;
+let r=2;
+let l=PI*r**2;
+alert(l);
