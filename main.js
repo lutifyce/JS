@@ -1,13 +1,7 @@
-let a = '10';
-let b = '20';
-alert(Number(a) + Number(b))
+let a='5px',b='6px';
+alert(parseInt(a)+parseInt(b));
 //
-//5
+let aa='5.5px',bb='6.25px';
+alert(parseFloat(aa)+parseFloat(bb));
 //
-//5
-//
-//23
-//
-let aa = +'2';
-let bb = +'3';
-alert(aa + bb); 
+alert(parseFloat(aa)+parseFloat(bb)+'px');
