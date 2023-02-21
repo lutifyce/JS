@@ -1,17 +1,12 @@
-let a;
-alert(a); 
+let num1 = 456;
+console.log(num1);
 //
-let b=null;
-alert(b);
+let num2 = 456;
+let num3 = 456;
+console.log(num1,num2,num3);
 //
-let ab=true;
-alert(ab);
+console.log(123);
+console.log('123');
+console.log(true);  
 //
-let ba=false;
-alert(ba);
-//
-alert('sd'*'sdd')
-//
-alert( 10 / 0); 
-//
-alert(-10 / 0);
+alert(eee);
