@@ -1,2 +1,5 @@
-let a=1.5,b=0.75;
-alert(a+b);
+let a=-100;
+alert(a);
+//
+let b=2313;
+alert(-b);
