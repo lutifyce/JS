@@ -1,7 +1,2 @@
-alert(2**10)
-//
-//24
-//216
-//48
-//24
-//72
+let im='dilyaver',fa='bekirov';
+alert(im+' ' + fa);
