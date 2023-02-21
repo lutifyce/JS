@@ -1,7 +1,10 @@
-let a='5px',b='6px';
-alert(parseInt(a)+parseInt(b));
+let num1 = 10;
+let num2 = 20;
+alert(String(num1) + String(num2));
 //
-let aa='5.5px',bb='6.25px';
-alert(parseFloat(aa)+parseFloat(bb));
+let a=1232133;
+alert(String(a).length);
 //
-alert(parseFloat(aa)+parseFloat(bb)+'px');
+let d=1232133;
+let c=1232133;
+alert(String(c).length+String(d).length)
