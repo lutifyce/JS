@@ -1,64 +1,11 @@
-/*
-let test = Boolean(3);
-alert(test);
+"use strict";
+let a, b, c, d, result, str; // объявляем все 3 переменные методом в одну строку
 
-let test = Boolean(0);
-alert(test);
-
-let test = Boolean(-1);
-alert(test);
-
-let test = Boolean(-0);
-alert(test);
-
-let test = Boolean(+0);
-alert(test);
-
-let test = Boolean('abc');
-alert(test);
-
-let test = Boolean('');
-alert(test);
-
-let test = Boolean('0');
-alert(test);
-
-let test = Boolean(true);
-alert(test);    
-
-let test = Boolean(false);
-alert(test);
-
-let test = Boolean('true');
-alert(test);
-
-let test = Boolean('false');
-alert(test);
-
-let test = Boolean(null);
-alert(test);
-
-let test = Boolean('null');
-alert(test);
-
-let test = Boolean(undefined);
-alert(test);
-
-let test = Boolean('undefined');
-alert(test);
-
-let test = Boolean(NaN);
-alert(test);
-
-let test = Boolean('NaN');
-alert(test);
-
-let test = Boolean(3 * 'abc');
-alert(test);
-
-let test = Boolean(Infinity);
-alert(test);
-
-let test = Boolean(1 / 0);
-alert(test);
-*/
+// Присваиваем переменным значения:
+a = 'abcde';
+alert(a[0]+ ' ' + a[2]+ ' ' +a[4]);
+b = a[4] + a[3] + a[2] + a[1] + a[0];
+alert(b);
+str = 'abcde';
+let num = 3;
+alert(str[num]);
