@@ -1,5 +1,15 @@
 "use strict";
 
-let date = {year: '2023', month:'February', day: '15', time: '16:38'};
-console.log(date);
-alert(date['year'] + '-' + date['month'] + '-' + date['day'] + '-' + date['time']);
+let obj = {
+	'1a': 1, /* кавычки обязательны */
+	'b2': 2,
+	'c-c': 3,  /* кавычки обязательны */
+	'd 4': 4,  /* кавычки обязательны */
+	'e5': 5
+};
+
+console.log(obj['1a']);
+console.log(obj.b2);
+console.log(obj['c-c']);
+console.log(obj['d 4']);
+console.log(obj.e5);
