@@ -1,5 +1,5 @@
 "use strict";
 
-let user = {name: 'Asanov', surname:'Elvin', patronymic: 'Ilich', age: '202', country: 'NASA'};
-console.log(user);
-alert(user['name'] + ' ' + user['surname'] + ' ' + user['patronymic'] + ' ' + user['age'] + ' ' + user['country']);
+let date = {year: '2023', month:'February', day: '15', time: '16:38'};
+console.log(date);
+alert(date['year'] + '-' + date['month'] + '-' + date['day'] + '-' + date['time']);
