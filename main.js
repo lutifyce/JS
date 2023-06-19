@@ -1,15 +1,13 @@
 "use strict";
 
-let arr1 = [1, 2, 3];
-let arr2 = arr1;
+/* const arr = ['a', 'b', 'c'];
+arr[1] = '!';
+console.log(arr);
 
-arr1[0] = 'a';
-console.log(arr2);
-// 'a', 2, 3
+const arr = ['a', 'b', 'c'];
+arr = [1, 2, 3];
+console.log(arr);
 
-
-let arr3 = [1, 2, 3];
-let arr4 = arr3;
-arr3[0] = 'a';
-arr4[1] = 'b';
-console.log(arr3);
+const arr = ['a', 'b', 'c'];
+arr = ['a', 'b', 'c'];
+console.log(arr); */
