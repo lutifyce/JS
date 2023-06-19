@@ -1,5 +1,8 @@
 "use strict";
 
 let obj = {x: 1, y: 2, z: 3};
+document.write(obj['x']);
 
-document.write(Object.keys(obj).length)
+let obj1 = {x: 1, y: 2, z: 3};
+let key = 'x';
+document.write(obj1[key]);
