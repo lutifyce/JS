@@ -1,14 +1,10 @@
 "use strict";
 
-let arr = [];
+let arr = ['a', 'b', 'c'];
+let key = 2;
+document.write(arr[key], '<br>');
 
-arr.push('1');
-arr.push('2');
-arr.push('3');
-
-document.write(arr, '<br>');
-
-let arr1 = [1, 2, 3];
-arr1.push('4');
-arr1.push('5');
-document.write(arr1);
+let arr1 = [1, 2, 3, 4, 5];
+let key1 = 1;
+let key2 = 2;
+document.write(arr1[key1] + arr1[key2]);
