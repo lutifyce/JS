@@ -1,12 +1,13 @@
-alert('возраст:' + prompt('возраст?')); 
+"use strict";
 
-let num1 = prompt('1');
-let num2 = prompt('2');
-alert(Number(num1) + Number(num2)); 
+document.write('lutifyce<br>');
+document.write('<i>lutifyce</i>');
 
-let storona = prompt('сторона квадрата: = ');
-alert(storona*storona);
+let str = 'luti2';
+document.write('<i><br>' + str + '</i></br>');
 
-let num3 = prompt('Введите первое число');
-let num4 = prompt('Введите второе число');
-alert(Number(num3) + Number(num4)); 
+document.write('1<br>');
+document.write('2<br>');
+document.write('3<br>');
+document.write('4<br>');
+document.write('5<br>');
